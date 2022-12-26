@@ -1,3 +1,4 @@
+/***********************************TAG-SELECTORS************************************************/
 body {
     background-color: lightcyan;
 }
@@ -11,10 +12,27 @@ hr {
 
 }
 
-table {
+/************************************************CLASS-SELECTORS**************************************/
+
+.my.qualification {
     border: solid;
     border-color: black;
     border-spacing: 20px;
+}
+
+
+.footer {
+    border: 0;
+}
+
+.family {
+    border-radius: 50% 20% / 10% 40%;
+    border: solid 2px;
+}
+
+.family:hover {
+    transform: scale(1.5);
+
 }
 
 /*td {
@@ -31,4 +49,15 @@ h2 {
 
 h3 {
     color: green;
+}
+
+/************************************ID SELECTORS****************************************************/
+#red {
+    border-color: red;
+}
+#green {
+    border-color:green;
+}
+#yellow {
+    border-color: yellow;
 }
