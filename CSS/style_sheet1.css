@@ -1,0 +1,34 @@
+body {
+    background-color: lightcyan;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: blueviolet;
+    border-width: 5px;
+    width: 5%;
+    height: 0px;
+
+}
+
+table {
+    border: solid;
+    border-color: black;
+    border-spacing: 20px;
+}
+
+/*td {
+    
+}*/
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: green;
+}
